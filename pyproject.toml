@@ -1,7 +1,7 @@
 [project]
 name = "django-local-postgres-docker"
 version = "0.1.0"
-description = "In this project, Django application run locally but the database postgres is running in a Docker container."
+description = "Django application run locally but the database postgres is running in a Docker container."
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
