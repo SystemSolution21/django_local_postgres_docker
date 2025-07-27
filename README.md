@@ -27,7 +27,7 @@ uv pip install -r requirements.txt
 ## Run Docker Container
 
 ```pwsh
-docker-compose up -d
+docker compose up -d
 ```
 
 ## Generate secret key(if required)
