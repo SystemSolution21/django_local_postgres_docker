@@ -2,7 +2,7 @@ name: django-local-postgres-docker
 
 services:
   postgres:
-    image: postgres
+    image: postgres:17-alpine
     container_name: postgres-container
     ports:
       - "5432:5432"
