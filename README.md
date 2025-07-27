@@ -24,6 +24,12 @@ uv pip install --upgrade pip
 uv pip install -r requirements.txt
 ```
 
+## Run Docker Container
+
+```pwsh
+docker-compose up -d
+```
+
 ## Generate secret key(if required)
 
 ```pwsh
@@ -33,17 +39,11 @@ print(get_random_secret_key())
 exit()
 ```
 
-## Database Migration
+## Database Migrations
 
 ```pwsh
 python manage.py makemigrations
 python manage.py migrate
-```
-
-## Run Docker Container
-
-```pwsh
-docker-compose up -d
 ```
 
 ## Run Django Application
