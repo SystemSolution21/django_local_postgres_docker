@@ -1,6 +1,8 @@
 # Django Local PostgreSql Docker
 
-Django application run locally but the database PostgreSql is run in a Docker container.
+## Django application run locally and database PostgreSql run in Docker container
+
+<br>
 
 ## Requirements
 
@@ -10,12 +12,16 @@ Django application run locally but the database PostgreSql is run in a Docker co
 - uv
 - Postgresql
 
+<br>
+
 ## Virtual Environment
 
 ```pwsh
 uv venv
 .venv\Scripts\activate
 ```
+
+<br>
 
 ## Dependencies Installation
 
@@ -24,11 +30,15 @@ uv pip install --upgrade pip
 uv pip install -r requirements.txt
 ```
 
+<br>
+
 ## Run Docker Container
 
 ```pwsh
 docker compose up -d
 ```
+
+<br>
 
 ## Generate secret key(if required)
 
@@ -39,6 +49,8 @@ print(get_random_secret_key())
 exit()
 ```
 
+<br>
+
 ## Database Migrations
 
 ```pwsh
@@ -46,11 +58,15 @@ python manage.py makemigrations
 python manage.py migrate
 ```
 
+<br>
+
 ## Run Django Application
 
 ```pwsh
 python manage.py runserver
 ```
+
+<br>
 
 ## PostgreSql container database confirmation
 
